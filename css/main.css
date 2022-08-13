@@ -25,7 +25,7 @@
 .main a {
   font-weight: 550;
   font-size: 1.25em;
-  display: inline;
+  display: inline-block;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -40,20 +40,49 @@
   cursor: pointer;
 }
 
+.main a:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-transition: 150ms ease-out;
+  transition: 150ms ease-out;
+}
+
 .container {
   padding-top: 1.25em;
   padding-bottom: 1.25em;
 }
 
+.social-links {
+  margin: 0 auto;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .social-links li {
   list-style-type: none;
-  -ms-flex-line-pack: justify;
-      align-content: space-between;
+}
+
+.social-links svg {
+  width: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .icon {
-  background-color: #ff5acd;
+  pointer-events: bounding-box;
   margin: 0 auto;
+}
+
+.icon path:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-transition: 150ms ease-out;
+  transition: 150ms ease-out;
 }
 
 nav {
