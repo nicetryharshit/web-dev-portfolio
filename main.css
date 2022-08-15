@@ -1,0 +1,110 @@
+html {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #181818;
+    color: whitesmoke;
+}
+body
+{
+    font-family: apercu_proregular,Helvetica Neue,sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80vw;
+}
+
+nav
+{
+    margin: 0 auto;
+    display: flex;
+}
+
+.nav-link
+{
+    margin-left: 2em;
+}
+.social-link
+{
+    margin-right: 2em;
+}
+
+img
+{
+    max-width: 25px;
+}
+
+img:hover
+{
+    transform: translateY(-5px);
+    transition: transform 250ms;
+}
+.nav-link >a
+{
+    font-size: large;
+    text-decoration: underline;
+    text-underline-offset: 0.25em;
+    color: ivory;
+}
+
+.title
+{
+    margin: 0 auto;
+    text-decoration: none;
+    flex-grow: 1;
+}
+
+.title >a
+{
+    font-size: large;
+    text-decoration: none;
+    color:ivory;
+}
+
+.about-section
+{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.about
+{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about >h1
+{
+    color: thistle;
+    font-size: calc(12pt + 3vw);
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.035;
+    font-family: circular-stdregular, Helvetica Neue, sans-serif;
+}
+.work
+{
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row;
+}
+
+.container
+{
+    margin: 0 auto;
+    margin-right: 2em;
+}
+.footer
+{
+    display: flex;
+    align-items: center;
+    align-items:flex-start;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
