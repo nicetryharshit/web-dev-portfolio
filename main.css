@@ -22,12 +22,64 @@ nav
 {
     margin: 0 auto;
     display: flex;
+    justify-content: start;
 }
 
 .nav-link
 {
-    margin-left: 2em;
+    background-color: rgba(0,0,0,0);
+    border-radius: 500px;
+    padding: 0.25em 0.5em 0.25em 0.5em;
+    margin-right: 1.75em;
+    margin-right: 2em;
 }
+
+.active-nav-link
+{
+    background-color: whitesmoke;
+    border-radius: 500px;
+    background: white;
+    border: solid 2px whitesmoke;
+}
+
+.inactive-nav-link
+{
+    background: none;
+    border: solid 2px whitesmoke;
+    border-radius: 500px;
+}
+
+.inactive-nav-link:hover
+{
+    background-color: #666666;
+    border-radius: 500px;
+    transition: background-color 200ms;
+}
+
+.btn
+{
+    background: none;
+    border: solid 2px whitesmoke;
+    border-radius: 500px;
+    padding: 0.25em 0.5em 0.25em 0.5em;
+    margin-right: 1.75em;
+    width: fit-content;
+}
+
+.btn>a
+{
+    font-size: large;
+    color: whitesmoke;
+}
+
+.btn:hover
+{
+    background-color: #666666;
+    border-radius: 500px;
+    transition: background-color 200ms;
+}
+
+
 .social-link
 {
     margin-right: 2em;
@@ -46,23 +98,11 @@ img:hover
 .nav-link >a
 {
     font-size: large;
-    text-decoration: underline;
-    text-underline-offset: 0.25em;
     color: ivory;
 }
-
-.title
+.active-nav-link >a
 {
-    margin: 0 auto;
-    text-decoration: none;
-    flex-grow: 1;
-}
-
-.title >a
-{
-    font-size: large;
-    text-decoration: none;
-    color:ivory;
+    color: #181818;
 }
 
 .about-section
@@ -76,7 +116,7 @@ img:hover
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 
 .about >h1
@@ -93,18 +133,21 @@ img:hover
     margin: 0 auto;
     display: flex;
     flex-flow: row;
+    justify-content: start;
 }
 
 .container
 {
-    margin: 0 auto;
-    margin-right: 2em;
+    max-width: 25vw;
+    margin: 0 2em 0 0;
+    /* display: flex; */
+    /* flex-flow: column; */
+    /* align-items: flex-start; */
 }
 .footer
 {
     display: flex;
     align-items: center;
-    align-items:flex-start;
     margin-top: 50px;
     margin-bottom: 50px;
 }
