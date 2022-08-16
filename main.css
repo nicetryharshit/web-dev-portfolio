@@ -25,6 +25,10 @@ nav
     justify-content: start;
 }
 
+.name
+{
+    color:floralwhite;
+}
 .nav-link
 {
     background-color: rgba(0,0,0,0);
