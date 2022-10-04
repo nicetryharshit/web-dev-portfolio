@@ -8,7 +8,7 @@ html {
 }
 body
 {
-    font-family: apercu_proregular,Helvetica Neue,sans-serif;
+    font-family: Helvetica Neue,sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     margin: 0 auto;
@@ -33,9 +33,9 @@ nav
 {
     background-color: rgba(0,0,0,0);
     border-radius: 500px;
-    padding: 0.25em 0.5em 0.25em 0.5em;
+    padding: 0.25em 1em 0.25em 1em;
     margin-right: 1.75em;
-    margin-right: 2em;
+    margin-right: 1em;
 }
 
 .active-nav-link
@@ -62,27 +62,26 @@ nav
 
 .btn
 {
-    background: none;
-    border: solid 2px whitesmoke;
+    background-color: #5d91af;
     border-radius: 500px;
-    padding: 0.25em 0.5em 0.25em 0.5em;
-    margin-right: 1.75em;
+    padding: 0.35em 0.5em 0.35em 0.5em;
+    margin-right: .85em;
     width: fit-content;
 }
 
 .btn>a
 {
-    font-size: large;
+    font-size: 0.85em;
     color: whitesmoke;
+    font-weight: 550;
 }
 
 .btn:hover
 {
-    background-color: #666666;
+    background-color: #75a85d;
     border-radius: 500px;
     transition: background-color 200ms;
 }
-
 
 .social-link
 {
@@ -184,6 +183,7 @@ img:hover
 .blog-container>p
 {
     padding-left: 1.2em;
+    line-height: 1.5em;
 }
 
 .divider
@@ -217,6 +217,7 @@ img:hover
 .project-container>p
 {
     padding-left: 1.2em;
+    line-height: 1.5em;
 }
 
 .project-buttons
