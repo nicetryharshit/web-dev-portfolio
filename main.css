@@ -132,6 +132,8 @@ img:hover
     letter-spacing: -0.035;
     font-family: circular-stdregular, Helvetica Neue, sans-serif;
 }
+
+
 .work
 {
     margin: 0 auto;
@@ -144,9 +146,6 @@ img:hover
 {
     max-width: 25vw;
     margin: 0 2em 0 0;
-    /* display: flex; */
-    /* flex-flow: column; */
-    /* align-items: flex-start; */
 }
 .footer
 {
@@ -154,4 +153,83 @@ img:hover
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.padding-top
+{
+    padding-top: 10vh;
+}
+
+
+.blogs-section
+{
+    margin-top: 2em;
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+}
+.blog-container
+{
+    max-width: 25vw;
+    margin: 0em 0 1em 0;
+}
+
+.blog-container>h3
+{
+    font-size: x-small;
+    margin: 0;
+    padding-left: 2em;
+}
+
+.blog-container>p
+{
+    padding-left: 1.2em;
+}
+
+.divider
+{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 2px;
+    margin-top: 2em;
+}
+.projects-section
+{
+    margin-top: 2em;
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+}
+.project-container
+{
+    max-width: 25vw;
+    margin: 2em 0 2em 0;
+}
+
+
+.project-container>h3
+{
+    font-size: x-small;
+    margin: 0;
+    padding-left: 2em;
+}
+
+.project-container>p
+{
+    padding-left: 1.2em;
+}
+
+.project-buttons
+{
+    margin: 0 auto;
+    display: flex;
+    padding-left: 1.15em;
+    /* justify-content: start; */
+}
+.blog-buttons
+{
+    margin: 0 auto;
+    display: flex;
+    padding-left: 1.15em;
+    /* justify-content: start; */
 }
